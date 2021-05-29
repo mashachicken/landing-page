@@ -4,7 +4,7 @@
 }
 
 .hero {
-  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(img/background.png);
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/m-background.jpg);
   height: 100vh;
   width: 100%;
   background-position: center;
@@ -36,4 +36,8 @@ nav ul li {
 nav ul li a {
   color: #fff;
   text-decoration:  none;
+}
+
+nav ul li a:hover {
+  color: #ff536;
 }
