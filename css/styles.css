@@ -3,8 +3,46 @@
   padding: 0;
 }
 
-.hero {
-  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/m-background.jpg);
+body {
+  line-height: 1.7;
+  font-family: 'Lato', sans-serif;
+}
+
+#hero {
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(../img/m-background.jpg);
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero2 {
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(../img/m-background2.jpg);
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+ul {
+  list-style: none;
+  color: #fff
+}
+a {
+  text-decoration: none;
+  color: #ff5361;
+}
+
+.hero3 {
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(../img/m-background2.jpg);
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero4 {
+  background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(../img/m-background2.jpg);
   height: 100vh;
   width: 100%;
   background-position: center;
@@ -33,11 +71,37 @@ nav ul li {
   margin: 10px 25px;
 }
 
+.home {
+  background: #ff5361;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 25px;
+}
+
 nav ul li a {
   color: #fff;
   text-decoration:  none;
 }
-
 nav ul li a:hover {
-  color: #ff536;
+  color: #ff5361;
+}
+ .container{
+  padding: 0px 15px;
+}
+.about-me p {
+
+  height: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  
+}
+
+h1 {
+  color: #fff;
+}
+
+#abt-img {
+  float: right;
+  margin-top: 30px;
 }
