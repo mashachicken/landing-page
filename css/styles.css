@@ -24,7 +24,7 @@ body {
 
 .hero2 {
   background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(../img/m-background2.jpg);
-  height: 120vh;
+  height: 150vh;
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -32,7 +32,7 @@ body {
 
 ul {
   list-style: none;
-  color: #fff
+  color: #000000;
 }
 a {
   text-decoration: none;
@@ -64,17 +64,6 @@ nav {
 
 .logo {
   width: 110px;
-}
-
-nav ul {
-  flex: 1;
-  text-align: right;
-}
-
-nav ul li {
-  display: inline-block;
-  list-style: none;
-  margin: 10px 25px;
 }
 
 .home {
@@ -109,14 +98,27 @@ nav ul li a:hover {
   align-items: center;
   color: #fff;
 }
+
+.main{
+  display: grid;
+  grid-template-columns: 70vw auto;
+  color: #fff; 
+  grid-gap: 40px
+  /* padding: 0px 15px;
+  text-align:justify;
+  display: flex;
+  flex-direction: column;
+  justify-content:  center;
+  align-items: center; */
+}
 .about-me p {
   height: 100%;
   line-height: 40px;
   font-size: 25px;
-  font-weight: 600;
   color: #fff;
   padding: 0px 200px 0px 100px;
   text-align: justify;
+  background-color: #c0c0c069;
 }
 
 .contact {
@@ -138,5 +140,18 @@ h1 {
 }
 
 #email {
-  color:#c8b4e2ee;
+  color:#4c7a46ee;
+}
+
+.sidebar {
+  line-height: 1.5;
+  color: #000000;
+  font-size: 15px;
+  height: 50vh;
+  background-color: #fff;
+  margin-right: 16px!important;
+  text-align: center;
+  
+  
+
 }
